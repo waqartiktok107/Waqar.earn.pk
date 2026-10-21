@@ -1,0 +1,256 @@
+{
+  "users": [
+    {
+      "id": "admin_03208063725",
+      "fullName": "Chief Administrator (Waqar)",
+      "phoneOrEmail": "03208063725",
+      "role": "admin",
+      "status": "active",
+      "passwordHash": "1167544d8f6d2c9098abb07614bb6c171d46bdfc50ee0578345bf69225c0b01fc247e2d69d9a40d49723fb01f8d545c4dbaee3ec99d02e7e73288c178e6edcd5",
+      "salt": "a4f2df0b2542e409302bc585a34cff60",
+      "balance": 0,
+      "totalEarned": 0,
+      "createdAt": "2026-10-21T10:11:52.421Z",
+      "updatedAt": "2026-10-21T10:11:52.421Z"
+    },
+    {
+      "id": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "fullName": "Ali Khan",
+      "phoneOrEmail": "03009876543",
+      "role": "member",
+      "status": "active",
+      "passwordHash": "9cc08114c19043455c201487094eeead4fe1a36a9f41a88ad0f80a64e7b52299ffd485c12dbdd0f0c74ac0a0e123fb633fc95b9aceea4d73de49f5e9d22d2127",
+      "salt": "a9a7b77356ed55bd357cb7b4d1e6bd49",
+      "balance": 500,
+      "totalEarned": 0,
+      "createdAt": "2026-10-21T10:12:33.623Z",
+      "updatedAt": "2026-10-21T10:13:23.116Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_youtube_sub",
+      "title": "Subscribe to Official YouTube Channel",
+      "titleUrdu": "یوٹیوب چینل کو سبسکرائب کریں",
+      "description": "Subscribe to Waqar Official Channel, like the latest video, and submit your channel name or screenshot.",
+      "instructions": "1. Visit YouTube and search for Waqar Earn Official.\n2. Click Subscribe and hit the bell icon.\n3. Like the featured video.\n4. Enter your YouTube username and screenshot link in the proof box.",
+      "reward": 35,
+      "isActive": true,
+      "category": "Social Media",
+      "createdAt": "2026-10-21T10:11:52.421Z"
+    },
+    {
+      "id": "task_app_review",
+      "title": "Submit Positive 5-Star Rating & Review",
+      "titleUrdu": "پلے اسٹور پر 5 اسٹار ریویو دیں",
+      "description": "Leave a 5-star rating and positive review on the Waqar Earn app/portal. Mention fast payments in PKR.",
+      "instructions": "1. Provide a thoughtful 5-star review.\n2. Take a screenshot or copy the review text.\n3. Paste the review text and your reviewer name below.",
+      "reward": 60,
+      "isActive": true,
+      "category": "Reviews",
+      "createdAt": "2026-10-21T10:11:52.421Z"
+    },
+    {
+      "id": "task_whatsapp_share",
+      "title": "Share Waqar Earn Proof in 3 Earning Groups",
+      "titleUrdu": "واٹس ایپ ارننگ گروپس میں شیئر کریں",
+      "description": "Share payment screenshot and announcement in 3 active Pakistani WhatsApp earning groups.",
+      "instructions": "1. Share with group members.\n2. Submit group names and verification text.",
+      "reward": 45,
+      "isActive": true,
+      "category": "Promotion",
+      "createdAt": "2026-10-21T10:11:52.421Z"
+    },
+    {
+      "id": "task_daily_quiz",
+      "title": "Daily Platform Survey & Questionnaire",
+      "titleUrdu": "روزانہ سروے اور سوالنامہ مکمل کریں",
+      "description": "Answer 3 short feedback questions about your experience on Waqar Earn.pk to help us improve.",
+      "instructions": "Answer: How did you discover us? Which payment method do you prefer (EasyPaisa/JazzCash)? What is your daily target in PKR?",
+      "reward": 25,
+      "isActive": true,
+      "category": "Survey",
+      "createdAt": "2026-10-21T10:11:52.421Z"
+    }
+  ],
+  "taskSubmissions": [],
+  "depositRequests": [
+    {
+      "id": "dep_c37ba919-1709-4242-a873-6d175ea5d09a",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "userFullName": "Ali Khan",
+      "userPhoneOrEmail": "03009876543",
+      "amount": 500,
+      "paymentMethod": "EasyPaisa",
+      "transactionId": "37370019284",
+      "status": "approved",
+      "createdAt": "2026-10-21T10:12:54.085Z",
+      "processedAt": "2026-10-21T10:13:05.960Z",
+      "processedBy": "03208063725"
+    }
+  ],
+  "withdrawalRequests": [
+    {
+      "id": "wdr_d3feec70-32a1-4882-98e5-3cc08cda4814",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "userFullName": "Ali Khan",
+      "userPhoneOrEmail": "03009876543",
+      "amount": 450,
+      "paymentMethod": "EasyPaisa",
+      "accountTitle": "Ali Khan",
+      "accountNumber": "03009876543",
+      "status": "rejected",
+      "createdAt": "2026-10-21T10:13:14.987Z",
+      "rejectionReason": "Test refund flow",
+      "processedAt": "2026-10-21T10:13:23.116Z",
+      "processedBy": "03208063725"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_ca7f4826-bd89-4128-a4e6-8365bd0b0c0c",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "type": "withdrawal_refund",
+      "amount": 450,
+      "description": "Refund for rejected withdrawal #wdr_d3feec70-32a1-4882-98e5-3cc08cda4814 (Test refund flow)",
+      "descriptionUrdu": "مسترد شدہ رقم کی واپسی",
+      "referenceId": "wdr_d3feec70-32a1-4882-98e5-3cc08cda4814",
+      "createdAt": "2026-10-21T10:13:23.116Z"
+    },
+    {
+      "id": "tx_1475f0b6-7a3c-4213-8cb4-9d1e10316962",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "type": "withdrawal",
+      "amount": -450,
+      "description": "Withdrawal request to EasyPaisa (03009876543) - Pending Review",
+      "descriptionUrdu": "EasyPaisa پر رقم نکلوانے کی درخواست - زیر جائزہ",
+      "referenceId": "wdr_d3feec70-32a1-4882-98e5-3cc08cda4814",
+      "createdAt": "2026-10-21T10:13:14.987Z"
+    },
+    {
+      "id": "tx_34b7ef7f-972f-4ea1-991e-e34ec590d9c6",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "type": "deposit",
+      "amount": 500,
+      "description": "Deposit Approved via EasyPaisa (TRX: 37370019284)",
+      "descriptionUrdu": "EasyPaisa ڈپازٹ منظور ہوا (ٹی آر ایکس: 37370019284)",
+      "referenceId": "dep_c37ba919-1709-4242-a873-6d175ea5d09a",
+      "createdAt": "2026-10-21T10:13:05.960Z"
+    }
+  ],
+  "settings": {
+    "minDeposit": 250,
+    "minWithdrawal": 450,
+    "adminIdentifier": "03208063725",
+    "adminPasswordConfigured": true,
+    "paymentAccounts": [
+      {
+        "method": "EasyPaisa",
+        "title": "Waqar Ahmad",
+        "accountNumber": "0320-8063725",
+        "instructions": "Send exact PKR deposit to this EasyPaisa account. Note down the 11-digit TRX ID from SMS 3737."
+      },
+      {
+        "method": "JazzCash",
+        "title": "Waqar Ahmad",
+        "accountNumber": "0320-8063725",
+        "instructions": "Send exact PKR deposit to this JazzCash account. Enter the TID from SMS 8558."
+      },
+      {
+        "method": "Bank Transfer",
+        "title": "Waqar Ahmad",
+        "accountNumber": "0129009801234567",
+        "bankName": "Meezan Bank Limited (Islamic)",
+        "instructions": "Transfer to Meezan Bank. Mention your registered mobile number in payment reference."
+      }
+    ],
+    "announcement": "Welcome to Waqar Earn.pk! Minimum deposit is PKR 250, minimum withdrawal is PKR 450. Approvals are processed swiftly by the admin.",
+    "announcementUrdu": "وقار ارن ڈاٹ پی کے میں خوش آمدید! کم از کم ڈپازٹ 250 روپے اور کیش آؤٹ 450 روپے ہے۔ ایڈمن کی طرف سے تیزی سے منظوری دی جاتی ہے۔"
+  },
+  "auditLogs": [
+    {
+      "id": "669a162a-0fdc-43ff-871a-2d86272dfa18",
+      "adminIdentifier": "03208063725",
+      "action": "WITHDRAWAL_REJECT",
+      "targetId": "wdr_d3feec70-32a1-4882-98e5-3cc08cda4814",
+      "details": {
+        "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+        "amount": 450,
+        "reason": "Test refund flow"
+      },
+      "timestamp": "2026-10-21T10:13:23.116Z"
+    },
+    {
+      "id": "1a45e674-21d4-4011-aa70-a290a5843435",
+      "adminIdentifier": "03208063725",
+      "action": "DEPOSIT_APPROVE",
+      "targetId": "dep_c37ba919-1709-4242-a873-6d175ea5d09a",
+      "details": {
+        "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+        "amount": 500,
+        "trxId": "37370019284"
+      },
+      "timestamp": "2026-10-21T10:13:05.960Z"
+    },
+    {
+      "id": "f89e71aa-1721-4b34-bb89-becea7f6f7a8",
+      "adminIdentifier": "03208063725",
+      "action": "UPDATE_MEMBER_STATUS",
+      "targetId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "details": {
+        "oldStatus": "pending",
+        "newStatus": "active"
+      },
+      "timestamp": "2026-10-21T10:12:42.665Z"
+    },
+    {
+      "id": "bb1273d2-752c-4c7e-9b87-410f7c3715d1",
+      "adminIdentifier": "03208063725",
+      "action": "ADMIN_LOGIN_SUCCESS",
+      "targetId": "admin_03208063725",
+      "details": {
+        "ip": "127.0.0.1"
+      },
+      "timestamp": "2026-10-21T10:12:30.331Z"
+    },
+    {
+      "id": "deb0ac57-0f04-4199-9b0b-54f55d016b29",
+      "adminIdentifier": "03208063725",
+      "action": "SYSTEM_INITIALIZED",
+      "targetId": "system",
+      "details": {
+        "message": "Database initialized with official settings and default admin"
+      },
+      "timestamp": "2026-10-21T10:11:52.421Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_e9649b9e-a365-4c94-997c-2320c70c4c3b",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "title": "Withdrawal Rejected (Refunded) / رقم واپس کر دی گئی",
+      "titleUrdu": "رقم نکلوانے کی درخواست مسترد، رقم واپس کر دی گئی",
+      "message": "Your withdrawal request of PKR 450 was rejected and refunded to your balance: Test refund flow",
+      "read": false,
+      "createdAt": "2026-10-21T10:13:23.116Z"
+    },
+    {
+      "id": "notif_d464d3b3-5b3c-4054-8750-b5ba129c8ac8",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "title": "Deposit Approved / ڈپازٹ منظور",
+      "titleUrdu": "ڈپازٹ منظور کر لیا گیا ہے",
+      "message": "Your deposit of PKR 500 has been verified and added to your balance.",
+      "read": false,
+      "createdAt": "2026-10-21T10:13:05.960Z"
+    },
+    {
+      "id": "notif_6cdd4a38-685b-4d4c-9499-43acabb9d49b",
+      "userId": "user_bb3f7f48-ca17-4e2b-bd8a-9a5075770866",
+      "title": "Account Status: ACTIVE",
+      "titleUrdu": "اکاؤنٹ منظور کر لیا گیا ہے",
+      "message": "Congratulations! Your account has been approved by the admin. You can now earn and withdraw.",
+      "read": false,
+      "createdAt": "2026-10-21T10:12:42.665Z"
+    }
+  ]
+}

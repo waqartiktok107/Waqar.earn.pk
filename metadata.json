@@ -1,0 +1,6 @@
+{
+  "name": "Waqar Earn.pk",
+  "description": "Official earning platform for verified members in Pakistan with secure task earnings, deposits, and withdrawals.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
